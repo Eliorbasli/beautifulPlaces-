@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/public/style.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="mb-4">The beautiful places in the worlds</h1>
+        <a href="new.html" class="btn btn-success">New Place</a>
+
+        <!-- <script> places.forEach(place => </script> -->
+        <div class="card mt-4">
+            <div class="card-body">
+                <h4 class="card-title">
+                    <script>
+                        place.title
+                    </script>
+                </h4>
+                <div class="card-subtitle text-muted mb-2">
+                    <script>
+                        place.createdAt.toLocaleDateString()
+                    </script>
+                </div>
+                <div class="card-text mb-2">
+                    <script>
+                        place.description
+                    </script>
+                </div>
+                <a href="places/edit/<%= place.id %>" class="btn btn-info">Edit</a>
+                <form action="/places/<%= place.id %>?_method=DELETE" method="POST" class="d-inline">
+                    <button type="submit" class="btn btn-danger">Delete</button>
+                    kgjfgjfgjg
+                </form>
+            </div>
+        </div>
+        <!-- }) -->
+</body>
+
+</html>

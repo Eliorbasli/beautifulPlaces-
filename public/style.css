@@ -1,0 +1,232 @@
+body {
+    /* background: linear-gradient(90deg, rgb(66, 66, 219), rgb(110, 62, 185), rgb(218, 137, 151)); */
+
+    background: linear-gradient(90deg, rgb(66, 66, 219), rgb(92, 8, 219), rgb(66, 66, 219));
+}
+
+.main_header {
+    font-family: 'Shadows Into Light', cursive;
+    /*font-family: 'Raleway', sans-serif;*/
+    color: #000000;
+    text-shadow: gray;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+
+h2.sec_header {
+
+    font-family: 'Shadows Into Light', cursive;
+    /*font-family: 'Raleway', sans-serif;*/
+    color: #000000;
+    text-shadow: gray;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /*
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    */
+}
+
+.card-text {
+    background-color: antiquewhite;
+}
+
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem
+}
+
+.card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem
+}
+
+
+.card-subtitle {
+
+    margin-top: -.375rem;
+    margin-bottom: 0
+}
+
+.mb-4 {
+    margin: 5px;
+}
+
+.mt-4 {
+    margin-top: 1.5rem !important
+}
+
+.mb-2 {
+    margin-bottom: .5rem !important
+}
+
+.text-muted {
+    color: #6c757d !important
+}
+
+.menubar {
+
+    overflow: hidden;
+    background-color: rgb(53, 76, 110);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    border-radius: 5px;
+}
+
+.menubar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.menubar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+/* Container for flexboxes */
+section {
+    display: -webkit-flex;
+    display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+    float: left;
+    width: 60%;
+    height: auto;
+    /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style the content */
+article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 10px;
+
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc
+}
+
+
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545
+}
+
+.btn-danger:hover {
+    color: #fff;
+    background-color: #c82333;
+    border-color: #bd2130
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #5a6268;
+    border-color: #545b62
+}
+
+.container {
+    position: relative;
+    background-color: beige;
+    height: 70%;
+    width: 80%;
+}

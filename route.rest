@@ -1,0 +1,34 @@
+GET http://localhost:3000/places
+
+
+###
+
+GET http://localhost:3000/places/61ce10d5c171dc3b4c38cbcd
+
+
+
+###
+
+POST http://localhost:3000/places
+Content-Type: application/json
+
+{
+    "placeName" : "dsadasdas",
+    "description" : "dfjkhsdf dfaslkfjlksdj fsldkjflksjdf fslkdjflksdjflksjd"
+}
+
+
+###
+
+
+DELETE http://localhost:3000/places/61ce10d5c171dc3b4c38cbcd
+
+
+###
+
+
+PATCH http://localhost:3000/places/61ce10e44f08d6cc91f750f0
+Content-Type: application/json
+{
+    "name" : "New Name"
+}
